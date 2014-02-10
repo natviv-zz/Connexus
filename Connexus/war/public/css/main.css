@@ -1,0 +1,238 @@
+body{
+	font-family: 'Segoe UI Light', Tahoma, Arial, Helvetica, Sans-Serif;
+	max-height: 100%;
+	overflow-y:hidden;
+}
+*{
+	padding: 0;
+	margin:0;
+}
+
+p{
+	color: #fff;
+}
+a{
+    color:#fff;
+
+}
+
+
+
+
+.footer{
+	position: fixed;
+	height:40px;
+	width: 100%;
+	background:#1f1f1f;
+	bottom:0;
+	color: #fff;
+	font-size: 13px;
+	padding:5px;
+	font-size: 10px;
+	text-align: center;
+	z-index: 11;
+}
+.leftslider{
+	position: fixed;
+	top: 0px;
+	right: -500px;
+	height: 100%;
+	width: 500px;
+	background: #5133AB;
+	z-index: 10;
+}
+.iconcontainer{
+	color: #000;
+	height: 10px;
+	float: right;
+	margin-right: 5px;
+	width: 30px;
+	text-align: center;
+	padding-top: 30px;
+	position: relative;
+}
+.iconcontainerbg{
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -130px;
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 30px;
+}
+#actionbar{
+	position: absolute;
+	top: -20px;
+	width: 400px;
+}
+#loginbutton .iconcontainerbg{
+	background: url('icons/login.png') 0 0;
+}
+#loginbutton .iconcontainerbg:hover{
+	background: url('icons/login.png') 0 30px;
+}
+#loginbutton:hover{
+	cursor: pointer;
+}
+#loginbutton1 .iconcontainerbg{
+	background: url('icons/login.png') 0 0;
+}
+#loginbutton1 .iconcontainerbg:hover{
+	background: url('icons/login.png') 0 30px;
+}
+#loginbutton1:hover{
+	cursor: pointer;
+}
+#logoutbutton .iconcontainerbg{
+	background: url('icons/login.png') 0 0;
+}
+#logoutbutton .iconcontainerbg:hover{
+	background: url('icons/login.png') 0 30px;
+}
+#logoutbutton:hover{
+	cursor: pointer;
+}
+
+
+#helpbutton .iconcontainerbg{
+	background: url('icons/Info.png') 0 0;
+}
+#helpbutton .iconcontainerbg:hover{
+	background: url('icons/Info.png') 0 30px;
+}
+#helpbutton:hover{
+	cursor: pointer;
+}
+
+
+
+
+#searchbutton .iconcontainerbg{
+	background: url('icons/Search.png') 0 0;
+}
+#searchbutton .iconcontainerbg:hover{
+	background: url('icons/Search.png') 0 30px;
+}
+#searchbutton:hover{
+	cursor: pointer;
+}
+#homebutton .iconcontainerbg{
+	background: url('icons/Home.png') 0 0;
+}
+#homebutton .iconcontainerbg:hover{
+	background: url('icons/Home.png') 0 30px;
+}
+#homebutton:hover{
+	cursor: pointer;
+}
+#facebookbutton .iconcontainerbg{
+	background: url('icons/Fbook.png') 0 0;
+}
+#facebookbutton .iconcontainerbg:hover{
+	background: url('icons/Fbook.png') 0 30px;
+}
+#facebookbutton:hover{
+	cursor: pointer;
+}
+
+
+
+
+
+form{
+	font-family: 'Segoe UI Light', Tahoma, Arial, Helvetica, Sans-Serif;
+	font-family: 'Segoe UI', Tahoma, Arial, Helvetica, Sans-Serif;
+	font-weight: lighter;
+	max-width: 700px;
+	max-height: 500px;
+	color: #fff;
+	max-height: 500px;
+	overflow-x: scroll;
+	overflow-x:hidden;
+	margin: 10px;
+}
+form fieldset{
+	padding: 10px;
+	margin: 10px;
+}
+form td{
+	padding: 5px;
+}
+form a{
+	text-decoration: none;
+	padding: 5px;
+	color: #fff;
+}
+form a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+input{
+	box-shadow: none;
+	color: #000;
+}
+textarea{
+	border: 2px #ccc solid;
+	overflow: hidden;
+}
+input[type='text']{
+	border: 2px #ccc solid;
+	padding: 5px;
+}
+input[type='password']{
+	border: 2px #ccc solid;
+	padding: 5px;
+}
+input[type='submit']{
+	min-width: 120px;
+	border: none;
+	padding: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #2E8DEF;
+	color: #fff;
+}
+input[type='reset']{
+	min-width: 120px;
+	border: none;
+	padding: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #ccc;
+}
+input[type='button']{
+	min-width: 120px;
+	border: none;
+	padding: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #ccc;
+}
+select{
+	border: 2px #ccc solid;
+	padding: 5px;
+	max-height: 300px;
+}
+input[type='submit']:hover{
+	cursor: pointer;
+}
+input[type='submit']:active{
+	border: #000;
+}
+input[type=submit]:disabled,
+button:disabled {
+  	background: #ccc;
+}
+
+body {
+	scrollbar-3dlight-color:#CDCDCD;
+	scrollbar-arrow-color:#FFFFFF;
+	scrollbar-base-color:#EFEFEF;
+	scrollbar-darkshadow-color:#CDCDCD;
+	scrollbar-face-color:#CDCDCD;
+	scrollbar-highlight-color:#EFEFEF;
+	scrollbar-shadow-color:#CDCDCD;
+}
+/* For Chrome or Safari */
+/* Scrollbar background color */
+}

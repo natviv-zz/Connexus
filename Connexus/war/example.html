@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
+<!-- above set at the top of the file will set     -->
+<!-- the browser's rendering engine into           -->
+<!-- "Quirks Mode". Replacing this declaration     -->
+<!-- with a "Standards Mode" doctype is supported, -->
+<!-- but may lead to some differences in layout.   -->
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link href="https://rawgithub.com/hayageek/jquery-upload-file/master/css/uploadfile.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://rawgithub.com/hayageek/jquery-upload-file/master/js/jquery.uploadfile.min.js"></script>
+    <title>Upload Test</title>
+  </head>
+
+
+<!--  APT: for test purposes, not part of the app -->
+  <body>
+    <h1>Upload Test</h1>
+    <div id="fileuploader">Upload</div>
+  </body>
+</html>
+
+<script>
+$(document).ready(function()
+{
+    var url = $("#uploadForm").attr('action');
+	$("#fileuploader").uploadFile({
+	url:"/upload",
+	fileName:"myFile"
+	});
+});
+</script>
+
+
+
+
+
